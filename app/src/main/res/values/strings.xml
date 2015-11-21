@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Personal Content Library</string>
+
+    <string name="action_add_article">Add article</string>
+    <string name="add_article">Enter url of the article starting with http://</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="title_fragment">title fragment</string>
+    <string name="detail_fragment">detail fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login">Login</string>
+    <string name="main_activity">main_activity</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="title_activity_add_article">AddArticleActivity</string>
+
+    <string name="add_article_et_hint">eg: http://developer.android.com/guide/index.html</string>
+    <string name="add_article_btn">Add Article</string>
+    <string name="title_activity_content">ContentActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+</resources>
