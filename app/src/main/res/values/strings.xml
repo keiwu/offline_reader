@@ -14,7 +14,7 @@
     <string name="sign_out">Sign Out</string>
     <string name="title_activity_add_article">AddArticleActivity</string>
 
-    <string name="add_article_et_hint">eg: http://developer.android.com/guide/index.html</string>
+    <string name="add_article_et_hint">eg: http://www.yahoo.ca</string>
     <string name="add_article_btn">Add Article</string>
     <string name="title_activity_content">ContentActivity</string>
 
