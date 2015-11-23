@@ -61,8 +61,7 @@ public class AddArticleActivity extends AppCompatActivity {
             }
         }.start();
 
-        setResult(MainActivity.ADD_ARTICLE_SUCCESS);
-        finish();
+
     }
 
     public void getContents(String url){
@@ -105,6 +104,8 @@ public class AddArticleActivity extends AppCompatActivity {
 
             DBHelper dbHelper = DBHelper.getInstance(this);
             dbHelper.insertArticle(cv);
+            setResult(MainActivity.ADD_ARTICLE_SUCCESS);
+            finish();
 
         } catch (JSONException je){
             je.printStackTrace();
